@@ -32,7 +32,9 @@
             <!-- <div id='visBlackHat'></div> -->
         </div> <!--  Will hold our visualization (SVG) -->
         <p>
-        <br><br> Black-Hat: This visualization uses the same dataset but employs a logarithmic scale for the y-axis while keeping the axis labels in linear scale, which can mislead viewers about the relative differences in emissions between countries.
+        <br><br> Black-Hat: This visualization uses the same dataset to show the trend and proportion of emissions for 5 selected countries in a way that makes the major emitters appear to be not blameworthy for greenhouse gas emissions.
+        <br> The y-axis is logarithmic and the countries are stacked with overlay rather than cumulative stacking, so the apparent area is not proportional to the absolute emission contribution.
+        <br> The color scheme is also misleading, as the intensity of the color decreases as the emission contribution increases, suggesting that minor countries are contributing more greenhouse gas. When a country is clicked, a breakdown by categories is overlaid on the area window only rather than the entire area under the trendline, and the y-axis is hidden upon zooming so that the viewer's attention is forced onto relative areas rather than the true numerical scale.
         </p>
         <section class="controls-card">
             <div class="bh-control-group">
